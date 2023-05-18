@@ -1,0 +1,7 @@
+:root {
+  --bg: #f1f1f1;
+  --bg-inverse: #121212;
+  --bg-overlay: rgb(18 18 18 / 50%);
+  --text: #000;
+  --text-inverse: #fff;
+}
