@@ -1,8 +1,8 @@
 import { error, redirect } from "@sveltejs/kit";
-import type { PageServerLoad } from "../../../../.svelte-kit/types/src/routes/portfolio/$types";
 import { getPhotoset } from "../../../api/getPhotoset";
 import { buildFlickrUri } from "../../../utils/buildFlickrUri";
 import { Size } from "../../../utils/Size";
+import type { PageServerLoad } from "./$types";
 
 export const load = (async ({ fetch, params, setHeaders }) => {
   const { photosetId = "" } = params as { photosetId?: string };
