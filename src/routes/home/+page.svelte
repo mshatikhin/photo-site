@@ -85,7 +85,7 @@
 </script>
 
 <svelte:head>
-  <title>Mikhail Shatikhin Photography</title>
+  <title>Mikhail Shatikhin Portfolio</title>
 </svelte:head>
 
 <section>
