@@ -1,6 +1,7 @@
 <script lang="ts">
   let me = "assets/me.jpg";
   let vk = "assets/vk.png";
+  let tg = "assets/tg.png";
 </script>
 
 <section class="about">
@@ -23,10 +24,16 @@
     </article>
     <div class="contacts">
       Пишите мне если желаете со мной поработать как модель, визажист или дизайнер:
-      <a class="contactListLink" href="//vk.me/id2069565">
-        <img src={vk} alt="Vk Mikhail Shatikhin" />
-        <span class="contactListText">MIKHAIL SHATIKHIN</span>
-      </a>
+      <p>
+        <a class="contactListLink" href="https://t.me/mshatikhin">
+          <img src={tg} alt="Tg Mikhail Shatikhin" />
+          <span class="contactListText">Telegram</span>
+        </a>&nbsp;
+        <a class="contactListLink" href="https://vk.me/id2069565">
+          <img src={vk} alt="Vk Mikhail Shatikhin" />
+          <span class="contactListText">VK</span>
+        </a>
+      </p>
     </div>
   </div>
 </section>
@@ -46,7 +53,7 @@
   .contactListLink {
     display: inline-flex;
     align-items: baseline;
-    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .contactListLink:hover img {
