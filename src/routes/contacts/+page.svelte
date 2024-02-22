@@ -2,6 +2,7 @@
   let me = "assets/me.jpg";
   let vk = "assets/vk.png";
   let tg = "assets/tg.png";
+  let inst = "assets/inst.png";
 </script>
 
 <section class="about">
@@ -25,13 +26,17 @@
     <div class="contacts">
       Пишите мне если желаете со мной поработать как модель, визажист или дизайнер:
       <p>
-        <a class="contactListLink" href="https://t.me/mshatikhin">
+        <a class="contactListLink" href="https://t.me/mshtkhn" target="_blank">
           <img src={tg} alt="Tg Mikhail Shatikhin" />
-          <span class="contactListText">Telegram</span>
+          <span class="contactListText">Канал в Telegram</span>
         </a>&nbsp;
-        <a class="contactListLink" href="https://vk.me/id2069565">
+        <a class="contactListLink" href="https://vk.com/mshatikhin.photo" target="_blank">
           <img src={vk} alt="Vk Mikhail Shatikhin" />
-          <span class="contactListText">VK</span>
+          <span class="contactListText">Группа в VK</span>
+        </a>
+        <a class="contactListLink" href="https://www.instagram.com/mshatikhin.photo" target="_blank">
+          <img src={inst} alt="Instagram Mikhail Shatikhin" />
+          <span class="contactListText">Профиль в Instagram</span>
         </a>
       </p>
     </div>
