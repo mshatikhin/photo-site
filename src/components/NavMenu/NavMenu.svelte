@@ -23,11 +23,11 @@
         <li>
           <a
             href={`/portfolio/${portfolioRoute.id}`}
-            class:active={$page.url.pathname === `/portfolio/${portfolioRoute.id}`}>{portfolioRoute.caption}</a
+            class:active={$page.url.pathname.includes(`/portfolio/${portfolioRoute.id}`)}>{portfolioRoute.caption}</a
           >
         </li>
       {/each}
-      <li><a href="/contacts" class:active={$page.url.pathname === "/contacts"}>Contacts</a></li>
+      <li><a href="/contacts" class:active={$page.url.pathname.includes("/contacts")}>Contacts</a></li>
     </ul>
   </nav>
 </header>

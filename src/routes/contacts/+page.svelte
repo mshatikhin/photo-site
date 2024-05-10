@@ -1,8 +1,8 @@
 <script lang="ts">
-  let me = "assets/me.jpg";
-  let vk = "assets/vk.png";
-  let tg = "assets/tg.png";
-  let inst = "assets/inst.png";
+  import me from "../../images/me.jpg";
+  import vk from "../../images/vk.png";
+  import tg from "../../images/tg.png";
+  import inst from "../../images/inst.png";
 </script>
 
 <section class="about">
