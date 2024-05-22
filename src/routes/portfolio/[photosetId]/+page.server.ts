@@ -7,7 +7,7 @@ import type { PageServerLoad } from "./$types";
 export const load = (async ({ fetch, params, setHeaders }) => {
   const { photosetId = "" } = params as { photosetId?: string };
   if (!photosetId) {
-    throw redirect(303, "/");
+    redirect(303, "/");
   }
 
   try {
@@ -27,6 +27,6 @@ export const load = (async ({ fetch, params, setHeaders }) => {
       photos,
     };
   } catch (e) {
-    throw error(404);
+    error(404);
   }
 }) satisfies PageServerLoad;

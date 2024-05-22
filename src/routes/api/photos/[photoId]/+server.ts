@@ -4,7 +4,7 @@ import type { RequestEvent } from "@sveltejs/kit";
 
 export async function GET({ fetch, params, setHeaders }: RequestEvent) {
   if (!params.photoId) {
-    throw error(400);
+    error(400);
   }
 
   const response = await getSizes(fetch, params.photoId);
