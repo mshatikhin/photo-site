@@ -30,11 +30,11 @@
           <img src={tg} alt="Tg Mikhail Shatikhin" />
           <span class="contactListText">Канал в Telegram</span>
         </a>&nbsp;
-        <a class="contactListLink" href="https://vk.com/mshatikhin.photo" target="_blank">
+        <a class="contactListLink" href="https://vk.com/mshatikhin_photo" target="_blank">
           <img src={vk} alt="Vk Mikhail Shatikhin" />
           <span class="contactListText">Группа в VK</span>
         </a>
-        <a class="contactListLink" href="https://www.instagram.com/mshatikhin.photo" target="_blank">
+        <a class="contactListLink" href="https://www.instagram.com/mshatikhin_photo" target="_blank">
           <img src={inst} alt="Instagram Mikhail Shatikhin" />
           <span class="contactListText">Профиль в Instagram</span>
         </a>
